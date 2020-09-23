@@ -309,7 +309,17 @@ void setup() {
         gpioSetAlertFunc(Modes[i], updateTimerMode);
     }
 
-
+    //Set current mode to reflect selecter
+    for each (int i in Modes) //read input pins for mode selection
+    {
+        if (!gpioRead(i))
+            continue;
+        else //only 1 pin that is high can be selected
+        {
+            updateTimerMode(i, 1, 1234);
+            break;
+        }
+    }
 }
 
 void loop() {
