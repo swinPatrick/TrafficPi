@@ -47,16 +47,16 @@ TrafficPi control settings:
  * 	redBiasOff		27	-	[GROUND]
  * 	amberBiasOn		22	23
  * 	[GROUND]		-	24
- * 	amberBiasOff	10	-	[GROUND]
+ * 	amberBiasOff		10	-	[GROUND]
  * 	greenBiasOn		9	25
- * 	greenBiasOff	11	8
+ * 	greenBiasOff		11	8
  * 	[GROUND]		-	7
  * 	modeRand		0	1
- * 	modeDownSlow	5	-	[GROUND]
- * 	modeDownMedium	6	12	modeUpFast
- * 	modeDownFast	13	-	[GROUND]
+ * 	modeDownSlow		5	-	[GROUND]
+ * 	modeDownMedium		6	12	modeUpFast
+ * 	modeDownFast		13	-	[GROUND]
  * 	modeUpSlow		19	16	modeFlashSlow
- * 	modeUpMedium	26	20	modeFlashMedium
+ * 	modeUpMedium		26	20	modeFlashMedium
  * 	[GROUND]		-	21	modeFlashFast
 */
 
